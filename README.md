@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to *Bank Chatbot*! This project is a chatbot for Banca S.p.A. powered by a Large Language Model (LLM) ReAct agent, implemented with Langchain. It's designed to allow financial advisors to fetch personal information and financial data of related customers. 
 
-![DVLM Demo](dvla-demo.gif)
+![DVLM Demo](bank_logo.png)
 
 
 ## Features
