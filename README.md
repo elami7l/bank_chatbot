@@ -1,19 +1,15 @@
-# Damn Vulnerable LLM Agent
+# Bank Chatbot
 
 ## Introduction
-Welcome to the *Damn Vulnerable LLM Agent*! This project is a sample chatbot powered by a Large Language Model (LLM) ReAct agent, implemented with Langchain. It's designed to be an educational tool for security researchers, developers, and enthusiasts to understand and experiment with prompt injection attacks in ReAct agents. 
-
-The project specifically focuses on Thought/Action/Observation injection, as described in the WithSecure Labs [publication](https://labs.withsecure.com/publications/llm-agent-prompt-injection) and accompanying [video tutorial](https://www.youtube.com/watch?v=43qfHaKh0Xk).
-
-This repository is an adaptation of a challenge created by WithSecure for the Capture The Flag (CTF) competition held at BSides London 2023.
+Welcome to *Bank Chatbot*! This project is a chatbot for Banca S.p.A. powered by a Large Language Model (LLM) ReAct agent, implemented with Langchain. It's designed to allow financial advisors to fetch personal information and financial data of related customers. 
 
 ![DVLM Demo](dvla-demo.gif)
 
 
 ## Features
-- Simulates a vulnerable chatbot environment.
-- Allows for prompt injection experimentation.
-- Provides a ground for learning prompt injection vectors.
+- It's a chatbot environment.
+- Connect to sqlite databases containing all the data.
+- Integrates with mistral-nemo LLM through Ollama integration.
 
 ## Installation
 
